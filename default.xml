@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="8" />
 
-<project path="build" name="Cl3Kener/build" groups="pdk" remote="gh" revision="master" >
+<project path="build" name="OptiPop/build" groups="pdk" remote="gh" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -420,6 +420,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/optistock" name="Cl3Kener/vendor" remote="gh" revision="master" />
+  <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="master" />
 
 </manifest>
