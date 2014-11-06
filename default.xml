@@ -21,7 +21,7 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" />
+  <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="master" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
