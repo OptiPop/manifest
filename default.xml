@@ -400,7 +400,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="OptiPop/sdk" remote="gh" revision="master" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core" name="OptiPop/system_core" remote="gh" revision="master" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
