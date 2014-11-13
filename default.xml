@@ -132,7 +132,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jline" name="platform/external/jline" />
   <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="gh" revision="master" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsmn" name="platform/external/jsmn" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" />
