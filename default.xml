@@ -7,7 +7,7 @@
            fetch="git://android.git.linaro.org/" />
   <remote  name="gh"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-5.0.0_r5"
+  <default revision="refs/tags/android-5.0.0_r6"
            remote="aosp"
            sync-j="8" />
 
