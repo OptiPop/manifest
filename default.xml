@@ -362,7 +362,7 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="OptiPop/packages_services_Telecomm" remote="gh" revision="master" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="OptiPop/packages_services_Telephony" remote="gh" revision="master" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" />
