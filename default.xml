@@ -214,7 +214,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="master" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
