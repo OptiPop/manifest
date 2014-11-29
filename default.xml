@@ -404,7 +404,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" />
   <project path="tools/adt/idea" name="OptiPop/tools_adt_idea" remote="gh" revision="master" />
-  <project path="tools/base" name="platform/tools/base" />
+  <project path="tools/base" name="OptiPop/tools_base" remote="gh" revision="master" />
   <project path="tools/build" name="platform/tools/build" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" />
