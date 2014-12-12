@@ -248,7 +248,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="OptiPop/frameworks_av" remote="gh" revision="master" />
-  <project path="frameworks/base" name="OptiPop/frameworks_base" remote="gh" revision="master"  />
+  <project path="frameworks/base" name="OptiPop/frameworks_base" remote="gh" revision="dark"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -337,7 +337,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="master" />
+  <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="dark" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -352,7 +352,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/MediaProvider" name="OptiPop/packages_providers_MediaProvider" remote="gh" revision="master" />
+  <project path="packages/providers/MediaProvider" name="OptiPop/packages_providers_MediaProvider" remote="gh" revision="dark" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="OptiPop/packages_providers_TelephonyProvider" remote="gh" revision="master" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
