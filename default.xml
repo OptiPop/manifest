@@ -24,7 +24,9 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="master" />
+  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="cm-12.0" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
+  <project path="kernel/moto/shamu" name="N6-Dev-Team/android_kernel_moto_shamu" remote="gh" revision="cm-12.0" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -414,6 +416,7 @@
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="master" />
+  <project path="vendor/moto" name="N6-Dev-Team/proprietary_vendor_moto" remote="gh" revision="cm-12.0" />
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="master" />
 
 </manifest>
