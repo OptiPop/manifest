@@ -25,6 +25,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="master" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="master" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="kernel/motorola/shamu" name="OptiPop/kernel_motorola_shamu" remote="gh" revision="master" />
   <project path="external/aac" name="platform/external/aac"/>
