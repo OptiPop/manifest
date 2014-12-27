@@ -315,7 +315,7 @@
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="gh" revision="cm-12.0" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="OptiPop/packages_apps_CellBroadcastReceiver" remote="gh" revision="dark" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="OptiPop/packages_apps_Contacts" remote="gh" revision="dark" />
   <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="gh" revision="dark" />
