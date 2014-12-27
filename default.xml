@@ -102,7 +102,7 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="platform/external/flac" />
+  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="master" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
