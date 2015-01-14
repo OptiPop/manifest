@@ -383,7 +383,6 @@
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
-  <project path="prebuilts/sm" name="SaberMod/prebuilts_cloog_isl" remote="gh" revision="master" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="OptiPop/sdk" remote="gh" revision="master" />
   <project path="system/core" name="OptiPop/system_core" remote="gh" revision="master" />
