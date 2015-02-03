@@ -22,7 +22,7 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="master" />
+  <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="dark" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="master" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="kernel/moto/shamu" name="OptiPop/kernel_moto_shamu" remote="gh" revision="master" />
