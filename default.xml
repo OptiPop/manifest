@@ -18,7 +18,7 @@
   <project path="art" name="OptiPop/art" remote="gh" revision="master" />
   <project path="bionic" name="OptiPop/bionic" remote="gh" revision="master" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/recovery" name="Cl3Kener/recovery" remote="gh" revision="master" />
+  <project path="bootable/recovery" name="OptiPop/recovery" remote="gh" revision="master" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
