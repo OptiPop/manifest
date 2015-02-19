@@ -217,7 +217,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" />
   <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="master" />
   <project path="external/sfntly" name="platform/external/sfntly" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="OptiPop/external_skia" remote="gh" revision="master" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -371,7 +371,6 @@
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources"/>
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Team-Validus/arm-eabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="SaberMod/arm-eabi-4.9" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="gh" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" />
