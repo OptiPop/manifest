@@ -3,8 +3,6 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <remote  name="ln"
-           fetch="git://android.git.linaro.org/" />
   <remote  name="gh"
            fetch="https://github.com/" />
   <default revision="refs/tags/android-5.0.2_r1"
@@ -23,9 +21,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="dark" />
-  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="master" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
-  <project path="kernel/moto/shamu" name="OptiPop/kernel_moto_shamu" remote="gh" revision="master" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -396,7 +392,5 @@
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="master" />
-  <!-- project path="vendor/moto" name="N6-Dev-Team/proprietary_vendor_moto" remote="gh" revision="lp" /-->
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="master" />
-
 </manifest>
