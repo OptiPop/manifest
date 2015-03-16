@@ -24,8 +24,8 @@
   <project path="device/common" name="device/common" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="rebase-dark" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
-  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
-  <project path="kernel/moto/shamu" name="dhacker29/android_kernel_moto_shamu" remote="gh" revision="cm-12.1" /> 
+  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
+  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
