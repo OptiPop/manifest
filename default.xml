@@ -394,7 +394,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="rebase" />
   <project path="tools/base" name="OptiPop/tools_base" remote="gh" revision="rebase" />
   <project path="tools/build" name="platform/tools/build" />
   <project path="tools/idea" name="platform/tools/idea" />
