@@ -322,7 +322,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="OptiPop/packages_apps_Contacts" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="gh" revision="rebase-dark" />
-  <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="rebase" />
+  <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
