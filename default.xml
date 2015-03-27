@@ -25,7 +25,7 @@
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="rebase-dark" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
-  <project name="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lollipop-mr1" />
+  <project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lollipop-mr1" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
