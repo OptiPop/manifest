@@ -24,7 +24,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="rebase-dark" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
+  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/samsung/manta" name="OptiPop/android_device_samsung_manta" remote="gh" revision="master" />
   <project path="kernel/samsung/manta" name="khaon/android_kernel_samsung_manta" remote="gh" revision="khaon-new" />
@@ -304,6 +304,7 @@
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" />
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
@@ -405,6 +406,6 @@
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="rebase" />
-  <project path="vendor/motorola" name="Tesla-LP/proprietary_vendor_motorola" remote="gh" revision="android-5.1" />  
+  <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="gh" revision="5.1" />  
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="rebase" />
 </manifest>
