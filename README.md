@@ -17,7 +17,7 @@ Build commands are
     
     lunch
 
-    make otapackage 
+    make bacon 
 
 
 
