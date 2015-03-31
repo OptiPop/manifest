@@ -346,7 +346,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="rerebase-dark" />
-  <project path="packages/apps/ScreenRecorder" name="OptiPop/platform_packages_apps_ScreenRecorder" remote="gh" revision="rerebase" />
+  <project path="packages/apps/ScreenRecorder" name="OptiPop/packages_apps_ScreenRecorder" remote="gh" revision="rerebase" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
