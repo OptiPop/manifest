@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="8" />
 
-<project path="build" name="OptiPop/build" remote="gh" revision="rebase" >
+<project path="build" name="OptiPop/build" remote="gh" revision="rerebase" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -111,6 +111,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/glide" name="platform/external/glide" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="gh" revision="cm-12.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" />
@@ -255,7 +256,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="OptiPop/frameworks_av" remote="gh" revision="rebase" />
-  <project path="frameworks/base" name="OptiPop/frameworks_base" remote="gh" revision="rebase-dark"  />
+  <project path="frameworks/base" name="OptiPop/frameworks_base" remote="gh" revision="rerebase-dark"  />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -281,7 +282,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" />
-  <project path="frameworks/opt/telephony" name="OptiPop/frameworks_opt_telephony" remote="gh" revision="rebase" />
+  <project path="frameworks/opt/telephony" name="OptiPop/frameworks_opt_telephony" remote="gh" revision="rerebase" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
@@ -324,16 +325,17 @@
   <project path="packages/apps/Contacts" name="OptiPop/packages_apps_Contacts" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="rebase-dark" />
-  <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="rebase-dark" />
+  <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="rerebase-dark" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="OptiPop/packages_apps_Gallery2" remote="gh" revision="rebase" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="OptiPop/packages_apps_InCallUI" remote="gh" revision="rebase-dark" />
+  <project path="packages/apps/InCallUI" name="OptiPop/packages_apps_InCallUI" remote="gh" revision="rerebase-dark" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="OptiPop/packages_apps_Launcher3"  remote="gh" revision="rebase-dark" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="gh" revision="cm-12.0" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/MusicFX" name="OptiPop/packages_apps_MusicFX" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -343,7 +345,8 @@
   <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="gh" revision="rebase-dark" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="rebase-dark" />
+  <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="rerebase-dark" />
+  <project path="packages/apps/ScreenRecorder" name="OptiPop/platform_packages_apps_ScreenRecorder" remote="gh" revision="rerebase" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -352,18 +355,18 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="OptiPop/packages_inputmethods_LatinIME" remote="gh" revision="rebase" />
+  <project path="packages/inputmethods/LatinIME" name="OptiPop/packages_inputmethods_LatinIME" remote="gh" revision="rebase-dark" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="OptiPop/packages_providers_DownloadProvider" remote="gh" revision="rebase" />
   <project path="packages/providers/MediaProvider" name="OptiPop/packages_providers_MediaProvider" remote="gh" revision="rebase-dark" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="OptiPop/packages_providers_TelephonyProvider" remote="gh" revision="rebase" />
+  <project path="packages/providers/TelephonyProvider" name="OptiPop/packages_providers_TelephonyProvider" remote="gh" revision="rerebase" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="OptiPop/packages_services_Telecomm" remote="gh" revision="rebase" />
-  <project path="packages/services/Telephony" name="OptiPop/packages_services_Telephony" remote="gh" revision="rebase-dark" />
+  <project path="packages/services/Telecomm" name="OptiPop/packages_services_Telecomm" remote="gh" revision="rerebase" />
+  <project path="packages/services/Telephony" name="OptiPop/packages_services_Telephony" remote="gh" revision="rerebase-dark" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" />
@@ -407,5 +410,5 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="rebase" />
   <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="gh" revision="5.1" />  
-  <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="rebase" />
+  <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="rerebase" />
 </manifest>
