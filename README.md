@@ -3,7 +3,7 @@ OptiPop Project Manifest
 
 To initialize your local repository use
 
-    repo init -u https://github.com/OptiPop/manifest.git -b rebase
+    repo init -u https://github.com/OptiPop/manifest.git -b opti-5.1
     
 
 Then to sync up:
