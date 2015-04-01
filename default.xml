@@ -388,7 +388,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
-  <project path="sdk" name="OptiPop/sdk" remote="gh" revision="rebase" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="OptiPop/system_core" remote="gh" revision="rebase" />
   <project path="system/extras" name="OptiPop/system_extras" remote="gh" revision="rebase" />
   <project path="system/keymaster" name="platform/system/keymaster" />
@@ -396,7 +396,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="OptiPop/system_vold" remote="gh" revision="rebase" />
-  <project path="tools/base" name="OptiPop/tools_base" remote="gh" revision="rebase" />
+  <project path="tools/base" name="platform/tools/base" />
   <project path="tools/build" name="platform/tools/build" />
   <project path="tools/idea" name="platform/tools/idea" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" />
