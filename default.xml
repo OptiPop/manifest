@@ -25,7 +25,7 @@
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="opti-5.1" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
-  <project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lollipop-mr1" />
+  <project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lp-mr1" />
   <project path="device/samsung/manta" name="OptiPop/android_device_samsung_manta" remote="gh" revision="master" />
   <project path="kernel/samsung/manta" name="khaon/android_kernel_samsung_manta" remote="gh" revision="khaon-new" />
   <project path="external/aac" name="platform/external/aac"/>
@@ -48,10 +48,10 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
+  <project path="external/chromium_org" name="OptiPop/external_chromium_org" remote="gh" revision="dark-5.1" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
+  <project path="external/chromium_org/third_party/WebKit" name="OptiPop/external_chromium_org_third_party_WebKit" remote="gh" revision="dark-5.1" />
   <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" />
   <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" />
@@ -111,6 +111,7 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/glide" name="platform/external/glide" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="gh" revision="cm-12.0" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" />
@@ -299,8 +300,8 @@
   <project path="hardware/qcom/audio" name="OptiPop/hardware_qcom_audio" remote="gh" revision="opti-5.1" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" />
@@ -334,6 +335,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="OptiPop/packages_apps_Launcher3"  remote="gh" revision="opti-5.1" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
+  <project path="packages/apps/LockClock" name="OptiPop/packages_apps_LockClock" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/MusicFX" name="OptiPop/packages_apps_MusicFX" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -343,6 +345,7 @@
   <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/ScreenRecorder" name="OptiPop/packages_apps_ScreenRecorder" remote="gh" revision="dark-5.1" />
   <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
