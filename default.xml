@@ -23,7 +23,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/asus/flo" name="OptiPop/device_asus_flo" groups="device,flo" remote="gh" revision="opti-5.1" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" /> 
+  <project path="kernel/asus/kernel-flo" name="freak97/kernel-flo" remote="gh" revision="lollipop" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="dark-5.1" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
