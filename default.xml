@@ -3,7 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <remote  name="gh"
+   <remote  name="gh"
            fetch="https://github.com/" />
   <remote name="bb"
            fetch="https://bitbucket.org/" />
@@ -22,14 +22,6 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
-  <project path="device/asus/flo" name="OptiPop/device_asus_flo" groups="device,flo" remote="gh" revision="opti-5.1" />
-  <project path="kernel/asus/kernel-flo" name="freak97/kernel-flo" remote="gh" revision="lollipop" />
-  <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="dark-5.1" />
-  <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
-  <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
-  <project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lp-mr1" />
-  <project path="device/samsung/manta" name="OptiPop/android_device_samsung_manta" remote="gh" revision="master" />
-  <project path="kernel/samsung/manta" name="khaon/android_kernel_samsung_manta" remote="gh" revision="khaon-new" />
   <project path="external/aac" name="platform/external/aac"/>
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -48,6 +40,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.1" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/chromium_org" name="OptiPop/external_chromium_org" remote="gh" revision="dark-5.1" />
@@ -104,6 +97,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
+  <project name="CyanogenMod/android_external_ffmpeg" path="external/ffmpeg" remote="gh" revision="cm-12.1" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="dark-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
@@ -315,6 +309,12 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="OptiPop/libcore" remote="gh" revision="dark-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" path="hardware/qcom/bt" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="gh" revision="cm-12.1" groups="qcom" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" path="hardware/qcom/wlan" remote="gh" revision="cm-12.1" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -405,15 +405,22 @@
   <project path="tools/build" name="platform/tools/build" />
   <project path="tools/idea" name="platform/tools/idea" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" />
+  <project name="CyanogenMod/android_system_netd" groups="pdk" path="system/netd" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_system_qcom" groups="qcom" path="system/qcom" remote="gh" revision="cm-12.1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" />
   <project path="tools/swt" name="platform/tools/swt" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" />
-  <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="dark-5.1" />
-  <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="gh" revision="5.1" />  
+  <project path="tools/tradefederation" name="platform/tools/tradefederation" /> 
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="dark-5.1" />
-  <project name="freak97/proprietary_vendor_asus" path="vendor/asus" remote="gh" revision="master"/>
-  <project name="freak97/proprietary_vendor_broadcom" path="vendor/broadcom" remote="gh" revision="master"/>
-  <project name="freak97/proprietary_vendor_qcom" path="vendor/qcom" remote="gh" revision="master" /> 
+
+  <!-- Device Specific -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8226" remote="gh" revision="cm-12.1-caf-8226" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="cm-12.1" />
 </manifest>
