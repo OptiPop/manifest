@@ -27,7 +27,7 @@
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="dark-5.1" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="device/moto/shamu" name="OptiPop/device_moto_shamu" remote="gh" revision="rebase-dark" />
-  <project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="gh" revision="lp-mr1" />
+  <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="gh" revision="master" />
   <project path="device/samsung/manta" name="OptiPop/android_device_samsung_manta" remote="gh" revision="master" />
   <project path="kernel/samsung/manta" name="khaon/android_kernel_samsung_manta" remote="gh" revision="khaon-new" />
   <project path="external/aac" name="platform/external/aac"/>
