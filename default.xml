@@ -412,8 +412,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="dark-5.1" />
   <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="gh" revision="5.1" />  
+  <project path="vendor/asus" name="OptiPop/vendor_asus" remote="gh" revision="opti-5.1" />
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="dark-5.1" />
-  <project name="freak97/proprietary_vendor_asus" path="vendor/asus" remote="gh" revision="master"/>
-  <project name="freak97/proprietary_vendor_broadcom" path="vendor/broadcom" remote="gh" revision="master"/>
-  <project name="freak97/proprietary_vendor_qcom" path="vendor/qcom" remote="gh" revision="master" /> 
 </manifest>
