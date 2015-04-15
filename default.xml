@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="8" />
 
-<project path="build" name="OptiPop/build" remote="gh" revision="rerebase" >
+<project path="build" name="OptiPop/build" remote="gh" revision="opti-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
