@@ -92,7 +92,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="gh" revision="rebase" />
+  <project path="external/e2fsprogs" name="OptiPop/external_e2fsprogs" remote="gh" revision="opti-5.1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -105,7 +105,7 @@
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="rebase" />
+  <project path="external/flac" name="OptiPop/external_flac" remote="gh" revision="opti-5.1" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
@@ -138,7 +138,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jline" name="platform/external/jline" />
   <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="gh" revision="rebase" />
+  <project path="external/jpeg" name="OptiPop/external_jpeg" remote="gh" revision="opti-5.1" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsmn" name="platform/external/jsmn" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" />
@@ -208,7 +208,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst"/>
   <project path="external/openssh" name="platform/external/openssh"/>
-  <project path="external/openssl" name="OptiPop/external_openssl" remote="gh" revision="rebase" />
+  <project path="external/openssl" name="OptiPop/external_openssl" remote="gh" revision="opti-5.1" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" />
@@ -224,17 +224,17 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/scrypt" name="platform/external/scrypt" />
-  <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="rebase" />
+  <project path="external/sepolicy" name="OptiPop/external_sepolicy" remote="gh" revision="opti-5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/skia" name="OptiPop/external_skia" remote="gh" revision="opti-5.1" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex"/>
-  <project path="external/sqlite" name="OptiPop/external_sqlite" remote="gh" revision="rebase" />
+  <project path="external/sqlite" name="OptiPop/external_sqlite" remote="gh" revision="opti-5.1" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="OptiPop/external_stlport" remote="gh" revision="rebase" />
+  <project path="external/stlport" name="OptiPop/external_stlport" remote="gh" revision="opti-5.1" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
