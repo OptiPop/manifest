@@ -279,8 +279,8 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" />
-  <project path="frameworks/opt/net/voip" name="OptiPop/frameworks_opt_net_voip" remote="gh" revision="opti-5.1" />
-  <project path="frameworks/opt/net/wifi" name="OptiPop/frameworks_opt_net_wifi" remote="gh" revision="opti-5.1" />
+  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/wifi" name="platform/frameworks/opt/net/wifi" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" />
