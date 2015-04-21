@@ -411,7 +411,7 @@
   <project path="tools/swt" name="platform/tools/swt" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" />
   <project path="vendor/lge" name="OptiPop/vendor_lge" remote="gh" revision="dark-5.1" />
-  <project path="vendor/moto/shamu" name="Chroma-Aosp/vendor_moto_shamu" remote="gh" revision="5.1" />  
+  <project path="vendor/moto/shamu" name="OptiPop/vendor_moto_shamu" remote="gh" revision="dark-5.1" />  
   <project path="vendor/asus" name="OptiPop/vendor_asus" remote="gh" revision="opti-5.1" />
   <project path="vendor/optipop" name="OptiPop/vendor" remote="gh" revision="dark-5.1" />
 </manifest>
