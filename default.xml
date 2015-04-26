@@ -328,8 +328,6 @@
   <project path="packages/apps/ContactsCommon" name="OptiPop/packages_apps_ContactsCommon" remote="gh" revision="dark-5.1" />
   <project path="packages/apps/DeskClock" name="OptiPop/packages_apps_DeskClock" remote="gh" revision="dark-5.1" />
   <project path="packages/apps/Dialer" name="OptiPop/packages_apps_Dialer" remote="gh" revision="dark-5.1" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="OptiPop/packages_apps_Gallery2" remote="gh" revision="dark-5.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
