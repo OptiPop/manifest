@@ -313,7 +313,7 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
+  <project path="hardware/samsung_slsi/exynos5" name="Optipop/hardware_samsung_slsi_exynos5" remote="gh" revision="opti-5.1" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="OptiPop/libcore" remote="gh" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
