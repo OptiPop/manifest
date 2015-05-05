@@ -388,7 +388,7 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
+  <project path="prebuilts/ndk" name="Optipop/prebuilts_ndk" remote="gh" revision="opti-5.1"/>
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
