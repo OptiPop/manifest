@@ -349,7 +349,7 @@
   <project path="packages/apps/PhoneCommon" name="OptiPop/packages_apps_PhoneCommon" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ScreenRecorder" name="OptiPop/packages_apps_ScreenRecorder" remote="gh" revision="dark-5.1" />
+  <project path="packages/apps/ScreenRecorder" name="OptiPop/packages_apps_ScreenRecorder" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/Settings" name="OptiPop/packages_apps_settings" remote="gh" revision="opti-5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
