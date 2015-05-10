@@ -1,0 +1,5 @@
+[gerrit]
+host=optipop.ddns.net
+port=29418
+project=manifest.git
+defaultbranch=opti-5.1
