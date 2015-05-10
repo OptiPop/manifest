@@ -319,6 +319,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="OptiPop/libcore" remote="gh" revision="opti-5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
+  <project path="manifest" name="OptiPop/manifest" remote="gh" revision="opti-5.1" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
