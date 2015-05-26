@@ -25,7 +25,7 @@
   <project path="device/asus/grouper" name="OptiPop/device_asus_grouper" remote="gh" revision="opti-5.1" />
   <project path="kernel/asus/grouper" name="OptiPop/kernel_asus_grouper" remote="gh" revision="opti-5.1" />
   <project path="device/asus/flo" name="OptiPop/device_asus_flo" remote="gh" revision="opti-5.1" />
-  <project path="kernel/asus/kernel-flo" name="freak97/kernel-flo" remote="gh" revision="lollipop" />
+  <project path="kernel/asus/kernel-flo" name="Orbit-/Vindicator-flo-aosp" remote="gh" revision="master" />
   <project path="device/lge/hammerhead" name="OptiPop/device_lge_hammerhead" remote="gh" revision="opti-5.1" />
   <project path="kernel/lge/hammerhead" name="Cl3Kener/UBER-L" remote="gh" revision="optipop" />
   <project path="device/lge/mako" name="OptiPop/device_lge_mako" remote="gh" revision="opti-5.1" />
